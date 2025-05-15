@@ -1,0 +1,24 @@
+.magnify{
+	z-index: 1;
+	position: relative;
+  }
+  .magnify_glass{
+	z-index: 300;
+	position: absolute;
+	border: 4px solid #CCC;
+	border-radius: 50%;
+	  width: 400px;
+	  height: 400px;
+	overflow:hidden;
+	cursor:crosshair;
+  }
+  .element_to_magnify{
+  
+  }
+  .magnify_glass_loading{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  
